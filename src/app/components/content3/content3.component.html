@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="card" style="width: 18rem;" *ngFor="let alumno of alumnos">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.zW0R7waKPw1IOmG3METk6gHaHa%26pid%3DApi&f=1&ipt=4fda8300d90156f734d83ea76177ccd7915fa4bd1a8e18e347e92dd1fb4a3c30&ipo=images"
+            class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">{{alumno | nombre}}</h5>
+            <p class="card-text">{{alumno.materia}}</p>
+            <a href="#" class="btn btn-primary">Call</a>
+        </div>
+    </div>
+
+
+</div>
